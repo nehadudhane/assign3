@@ -1,0 +1,77 @@
+body {
+	font-size: 16px;
+	color: #000;
+	background: url(../images/1.jpg) no-repeat;
+	background-size: cover;
+	background-color:  #EAEDF7;
+	font-family: 'Caveat';font-size: 22px;
+}
+
+/** Header **/
+#header-nav {
+	background-color: #EAEDF7;
+	border-radius: 0;
+	border: 0;
+}
+
+#logo {
+	color: #3F3387;
+	font-size: 2em;
+	margin-top: 0;
+  	margin-bottom: 0;
+  	line-height: 1;
+}
+
+#our-menu-title {
+	text-align: center;
+}
+
+#chicken-title {
+	text-align: center;
+}
+
+#beef-title {
+	text-align: center;
+}
+
+#sushi-title {
+	text-align: center;
+}
+
+#our-menu-content {
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.list {
+	display: flex;
+	flex: wrap;
+}
+
+#chicken {
+	margin-bottom: 5px; 
+}
+
+#beef {
+	margin-bottom: 5px; 
+}
+
+#sushi {
+	margin-bottom: 5px; 
+}
+
+#chicken-text {
+	background-color: white;
+	opacity: 0.8;
+}
+
+#beef-text {
+	background-color: white;
+	opacity: 0.8;
+}
+
+#sushi-text {
+	background-color: white;
+	opacity: 0.8;
+}
