@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Assigment Solution for Module 3</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Caveat' rel='stylesheet'>
+</head>
+<body>
+	<header>		
+		<nav id="header-nav" class="navbar navbar-default">
+
+			<!--Food LLC-->
+			<div class="container">
+				<div class="navbar-header">
+					<a href="index.html" class="pull-left visible">
+						<div id="logo">
+							<b>Food, LLC</b>
+						</div>
+					</a>
+				</div>
+			</div>
+			<!--End Food LLC-->
+
+		<!--Menu-->
+
+		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expended="false">
+			<span class="sr-only">Toggle navigator
+			</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+
+		<div id="collapsable-nav" class="collapse navbar-collapse">
+			<ul id="nav-list" class="nav navbar-nav navbar-right">
+				<li>
+					<a href="#chicken-title">
+						<span class="glyphicon glyphicon-chicken"></span>
+						<br class="hidden-xs">
+						Chicken
+					</a>
+				</li>
+				<li>
+					<a href="#beef-title">
+						<span class="glyphicon glyphicon-beef"></span>
+						<br class="hidden-xs">
+						Beef
+					</a>
+				</li>
+				<li>
+					<a href="#sushi-title">
+						<span class="glyphicon glyphicon-sushi"></span>
+						<br class="hidden-xs">
+						Sushi
+					</a>
+				</li>
+			</ul>
+		</div>
+		<!--End Menu-->
+		</nav>
+	</header>
+
+	<!--Our-menu-->
+	<div id="our-menu">
+		<h1 id="our-menu-title">
+			<b>Our Menu</b>
+		</h1>
+
+		<div id="our-menu-content" class="row">
+		<!--Chicken-->
+			<div id="chicken" class="list col-lg-4 col-md-6 col-sm-6 col-xs-12">
+				<div id="chicken-text">
+					<h2 id="chicken-title">
+						<b>Chicken</b>
+					</h2>
+					<div id="chicken-recept">
+					What could be finer than a warm flatbread filled with delicious chicken, hummus, and feta, along with crispy cucumber and snappy pomegranate seeds? Not much. This colorful meal is elegant enough for guests and easy enough for a weeknight dinner.
+					<span>
+						<a href="#our-menu">
+							Back To Top
+						</a>
+					</span>
+					</div>
+				</div>
+			</div>
+			<!--End Chicken-->
+
+			<!--Beef-->
+			<div id="beef" class="list col-lg-4 col-md-6 col-sm-6 col-xs-12">
+				<div id="beef-text">
+					<h2 id="beef-title">
+						<b>Beef</b>
+					</h2>
+					<div id="beef-recept">
+					This American classic was first concocted in the Lone Star State by—you guessed it—cowboys passing through on cattle drives. An ingredient you may not be familiar with, masa harina de maiz, is simply finely ground corn—similar to flour.
+					<span>
+						<a href="#our-menu">
+							Back To Top
+						</a>
+					</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="clearfix visible-md-block visible-sm-block"></div>
+			<!--End Beef-->
+
+			<!--Sushi-->
+			<div id="sushi" class="list col-lg-4 col-xs-12">
+				<div id="sushi-text">
+					<h2 id="sushi-title">
+					<b>Sushi</b>
+					</h2>
+					<div id="shusi-recept">
+					Let’s dive right in!  It may seem like a lot to buy at first, but most of the ingredients turn into staples  and non perishables like nori, sushi rice, and vinegar will last a ridiculously long time in your pantry.  You’ll end up with 4-6 sushi dinners for the price of one at a restaurant.  But above all else, it’s really fun!  Invite a few friends over and go nuts.
+					<span>
+						<a href="#our-menu">
+							Back To Top
+						</a>
+					</span>
+					</div>
+				</div>
+			</div>
+			<!--End Sushi-->
+			</div>
+		</div>
+	<!--End Our-menu-->
+	<script
+			  src="https://code.jquery.com/jquery-2.1.4.min.js"
+			  integrity="sha256-8WqyJLuWKRBVhxXIL1jBDD7SDxU936oZkCnxQbWwJVw="
+			  crossorigin="anonymous"></script>
+  	<script src="js/bootstrap.min.js"></script>
+  	<script src="js/script.js"></script>
+</body>
+</html>
